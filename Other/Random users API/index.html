@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <!-- Fontawesome CSS -->
+    <link href="https://kit-pro.fontawesome.com/releases/latest/css/pro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>My Profile</title>
+</head>
+<body>
+    <div class="preloader d-block">
+        <i class="fas fa-spinner fa-spin"></i>
+    </div>
+    <div class="wrapper d-none">
+        <nav class="navbar navbar-light bg-light py-4">
+            <div class="container">
+                <h2 class="font-weight-bold">RandomUser <span class="text-danger">.</span></h2>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="mt-5 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Hey my name is</p>
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                    <div class="card-footer">
+                        <button id="updateuser" class="btn btn-primary">
+                            UPDATE USER
+                        </button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <div class="mt-0 border-bottom">
+                            <div class="card-title">Email Address:</div>
+                            <div class="card-description email"></div>
+                        </div>
+                        <div class="mt-1 border-bottom">
+                            <div class="card-title">Date of the Birth:</div>
+                            <div class="card-description birthday"></div>
+                        </div>
+                        <div class="mt-1 border-bottom">
+                            <div class="card-title">Location Address:</div>
+                            <div class="card-description location"></div>
+                        </div>
+                        <div class="mt-1 border-bottom">
+                            <div class="card-title">Number Cell:</div>
+                            <div class="card-description number"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JavaScript Find All Occurrences of a Pattern in a String Using Regular Expression</title>
+</head>
+<body>
+    <script>
+    var regex = /ca[kfs]e/g;
+    var str = "the case is he was eating cake in the cafe.";
+    var matches = str.match(regex);
+    document.write("Found " + matches.length + " matches: " + matches);
+    console.log(matches);
+    </script>
+</body>
+</html>

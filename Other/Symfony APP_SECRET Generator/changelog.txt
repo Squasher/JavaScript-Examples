@@ -1,0 +1,1 @@
+25.08.2021 - v.0.0.1 simple app for generating random APP_SECRET for Symfony Apps - created by: MMH
